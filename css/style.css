@@ -226,7 +226,7 @@ img,video{display:block}
         "Malgun Gothic",
         sans-serif !important;
 
-    font-size:12px !important;
+    font-size:8px !important;
     line-height:2.15 !important;
     letter-spacing:0 !important;
     font-weight:400 !important;
@@ -250,4 +250,45 @@ img,video{display:block}
     font-size:10px;
     letter-spacing:.22em;
     opacity:.75;
+}
+
+
+/* === v1.5 FINAL 9.5px Korean ending note === */
+.ending .ending-note{
+    max-width:560px !important;
+    margin:0 auto !important;
+}
+
+.ending .ko-note{
+    font-family:
+        "Apple SD Gothic Neo",
+        "Noto Sans KR",
+        "Pretendard",
+        "Malgun Gothic",
+        sans-serif !important;
+
+    font-size:9.5px !important;
+    line-height:2.05 !important;
+    letter-spacing:0 !important;
+    font-weight:400 !important;
+
+    color:#5d564d !important;
+    opacity:.70 !important;
+
+    margin:0 !important;
+}
+
+.ending .ko-sign{
+    margin-top:18px !important;
+    font-size:8.8px !important;
+    letter-spacing:.16em !important;
+    color:#5d564d !important;
+    opacity:.65 !important;
+}
+
+.ending .return{
+    margin-top:34px !important;
+    font-size:10px !important;
+    letter-spacing:.22em !important;
+    opacity:.75 !important;
 }
