@@ -201,7 +201,7 @@ img,video{display:block}
  line-height:1.9;
  letter-spacing:.01em;
  color:#5d564d;
- margin:0;
+ margin:0 auto;
 }
 .ko-sign{
  margin-top:28px;
