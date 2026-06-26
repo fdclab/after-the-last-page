@@ -193,20 +193,37 @@ img,video{display:block}
 .story-hero.is-visible .rushes{opacity:1}
 
 
-.ending-note{max-width:600px}
-.ko-note{
- font-family:"SUIT Variable","Pretendard Variable","Pretendard",
- "Apple SD Gothic Neo","Noto Sans KR","Malgun Gothic",sans-serif;
- font-size:9px;
- line-height:1.9;
- letter-spacing:.01em;
- color:#5d564d;
- margin:0 auto;
+.ending-note{
+    max-width:560px;
+    margin:0 auto;
 }
+
+.ko-note{
+    font-family:
+        "SUIT Variable",
+        "Pretendard Variable",
+        "Pretendard",
+        "Apple SD Gothic Neo",
+        "Noto Sans KR",
+        "Malgun Gothic",
+        sans-serif;
+
+    font-size:9.5px;
+    font-weight:400;
+    line-height:2;
+    letter-spacing:-0.01em;
+
+    color:#5d564d;
+    opacity:.72;
+
+    margin:0;
+}
+
 .ko-sign{
- margin-top:28px;
- font-size:11px;
- letter-spacing:.18em;
- color:#5d564d;
- opacity:.75;
+    margin-top:18px;
+    font-size:9px;
+    letter-spacing:.18em;
+
+    color:#5d564d;
+    opacity:.65;
 }
