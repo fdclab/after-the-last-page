@@ -193,12 +193,12 @@ img,video{display:block}
 .story-hero.is-visible .rushes{opacity:1}
 
 
-.ending-note{max-width:430px}
+.ending-note{max-width:600px}
 .ko-note{
  font-family:"SUIT Variable","Pretendard Variable","Pretendard",
  "Apple SD Gothic Neo","Noto Sans KR","Malgun Gothic",sans-serif;
- font-size:10px;
- line-height:2;
+ font-size:9px;
+ line-height:1.9;
  letter-spacing:.01em;
  color:#5d564d;
  margin:0;
