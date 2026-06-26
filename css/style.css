@@ -348,3 +348,55 @@ img,video{display:block}
 .gtfo .overlay-video{
     opacity:.18 !important;
 }
+
+
+/* === v1.7 final tune: larger Korean note + reliable NULL delayed fade === */
+.ending .ko-note{
+    font-size:12px !important;
+    line-height:1.95 !important;
+    opacity:.72 !important;
+}
+
+.ending .ko-sign{
+    font-size:9px !important;
+    opacity:.65 !important;
+}
+
+.ending .return{
+    font-size:10px !important;
+    opacity:.75 !important;
+}
+
+/* Keep the NULL green video hidden first */
+.gtfo .gtfo-main-video{
+    opacity:0 !important;
+    animation:none !important;
+    transition:none !important;
+}
+
+/* When NULL section appears, wait, then fade green video in */
+.gtfo.is-visible .gtfo-main-video,
+.story-hero.gtfo.is-visible .gtfo-main-video{
+    animation:gtfoVideoFadeIn 1.45s ease 1.45s forwards !important;
+}
+
+/* Let the glitch overlay be visible first, then settle slightly */
+.gtfo .overlay-video{
+    opacity:.22 !important;
+    animation:none !important;
+}
+
+.gtfo.is-visible .overlay-video,
+.story-hero.gtfo.is-visible .overlay-video{
+    animation:gtfoOverlaySettle 1.45s ease 1.45s forwards !important;
+}
+
+@keyframes gtfoVideoFadeIn{
+    from{opacity:0}
+    to{opacity:1}
+}
+
+@keyframes gtfoOverlaySettle{
+    from{opacity:.22}
+    to{opacity:.13}
+}
