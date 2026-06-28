@@ -460,3 +460,27 @@ img,video{display:block}
 .gtfo.video-started .overlay-video{
     opacity:.13 !important;
 }
+
+
+/* === external preview version === */
+.external-quote-note{
+    max-width:680px !important;
+    margin:0 auto !important;
+}
+
+.external-quote{
+    font-family:
+        Georgia,
+        "Times New Roman",
+        serif !important;
+
+    font-size:13px !important;
+    line-height:2.05 !important;
+    letter-spacing:.01em !important;
+    font-weight:400 !important;
+
+    color:#51493f !important;
+    opacity:.76 !important;
+
+    margin:0 auto !important;
+}
